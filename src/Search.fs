@@ -25,7 +25,6 @@ type SearchComponent(props) =
         this.setState({text = value})
         this.props.Change(value)
     member this.Add evt = 
-        Fable.Import.JS.eval("console.log('Hola')")
         this.props.Add(this.state.text)
         this.setState({text = ""})
 

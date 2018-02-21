@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>Elmish Fable App</title>
+  <title>Fable App</title>
   <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
@@ -9,6 +9,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://cdn.polyfill.io/v2/polyfill.js?features=es6"></script>
+  <script>
+    function mostrarAlerta(){
+      alert("Esta es la alerta de la funcion 'mostrarAlerta'")
+    }
+
+    function mostrarAlertaConParametroFecha(date){
+      alert(date.toISOString());
+    }
+  </script>
 </head>
 <body>
   <div id="elmish-app"></div>
